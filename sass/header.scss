@@ -1,6 +1,110 @@
-$w:400px;
-header{
+$w:100%;
+$c:#333;
+$h:40px;
+$fs:12px;
+$fc:#B0B0B0;
+$bgc:#424242;
+
+
+#header {
   width: $w;
-  height: 300px;
-  background-color: pink;
+  height: $h;
+  background-color: $c;
+
+  #container {
+    width: 1226px;    
+    margin: 0 auto;
+    height: $h;
+
+    .h-list {
+      float: left;
+      height: $h;
+      line-height: $h;
+
+      li {
+        display: inline-block;
+        line-height: 39px;
+
+        span {
+          margin: 0 0.3em;
+          color: $bgc;
+          line-height: $h;
+          font-size: $fs;
+        }
+
+        a {
+          font-size: $fs;
+          line-height: $h;
+          color: $fc;
+
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .shoppingCart {
+      float: right;
+      width: 120px;
+      position: relative;
+      background-color: $bgc;
+      margin-left: 15px;
+      font-size: $fs;
+      height: $h;
+      line-height: $h;
+
+      .cart-mini {
+        position: relative;
+        z-index: 32;
+        display: block;
+        height: $h;
+        line-height: $h;
+        text-align: center;
+        color: $fc;
+        background: $bgc;
+        cursor: pointer;
+
+        em {
+          margin-right: 4px;
+          font-size: 20px;
+          line-height: 20px;
+          vertical-align: -2px;
+        }
+      }
+      .menu{
+        position: absolute;
+        right: 0;
+        top: 40px;
+        width: 316px;
+        height: 100px;
+        background: chartreuse;
+      }
+    }
+    .topar-info{
+      float:right;
+      height: $h;
+      line-height: $h;
+      font-size: $fs;
+      .sep{
+        color: $bgc;
+      }
+      i{
+        color: $fc;
+        cursor: pointer;
+        display: inline-block;
+        &:hover{
+          color: #fff;
+        }
+      }
+      .link{
+        padding: 0 5px;
+        text-align: center;
+      }
+    }
+
+  }
+
+
+
 }

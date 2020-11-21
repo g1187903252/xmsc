@@ -13,6 +13,16 @@ async function img(){
   src('./img/*.*')
   .pipe(dest('./dist/img'))
 }
+//处理font
+async function font(){
+  src('./font/*.*')
+  .pipe(dest('./dist/font'))
+}
+//处理data
+async function data(){
+  src('./data/*.json')
+  .pipe(dest('./dist/data'))
+}
 
 // 处理JS
 async function script(){
@@ -55,6 +65,8 @@ async function html(){
 task('build', async ()=>{
   await delDist()
   await img()
+  await font()
+  await data()
   await script()
   await sass()
   await html()

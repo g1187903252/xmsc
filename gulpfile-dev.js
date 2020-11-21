@@ -14,6 +14,17 @@ task('img', async ()=>{
   .pipe(dest('./dist/img'))
   .pipe(load.connect.reload())
 })
+//处理font
+task('font', async ()=>{
+  src('./font/*.*')
+  .pipe(dest('./dist/font'))
+  .pipe(load.connect.reload())
+})
+task('data', async ()=>{
+  src('./data/*.*')
+  .pipe(dest('./dist/data'))
+  .pipe(load.connect.reload())
+})
 
 // 处理JS
 task('script', async ()=>{
@@ -43,6 +54,8 @@ task('watch', async ()=>{
   watch('./pages/*.html',series('html'))
   watch('./sass/*.scss',series('sass'))
   watch('./img/*.*',series('img'))
+  watch('./font/*.*',series('font'))
+  watch('./data/*.*',series('data'))
   watch('./js/*.js',series('script'))
 })
 
@@ -55,4 +68,4 @@ task('connect', async ()=>{
   })
 })
 
-task('dev', series('delDist','img','html','script','sass','connect','watch'))
+task('dev', series('delDist','data','img','font','html','script','sass','connect','watch'))
