@@ -7,10 +7,14 @@
   <title>小米商城</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./font/iconfont.css">
+  <link rel="stylesheet" href="./font/swiper-bundle.min.css">
   <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
+  <div class="header-banner">
+    <a href="#"></a>
+  </div>
   <header id="header">
     <div id="container">
       <ul class="h-list">
@@ -40,7 +44,7 @@
           <div>购物车中还没有商品，赶紧选购吧</div>
         </div>
       </div>
-      <div class="topar-info">  
+      <div class="topar-info">
         <i id="login" class="link">登录</i>
         <span class="sep">|</span>
         <i id="register" class="link">注册</i>
@@ -50,9 +54,312 @@
         </span>
       </div>
     </div>
+
   </header>
+  <div id="nav">
+    <div class="nav-cont container">
+      <div class="nav-logo">
+        <a href="#"><img src="./img/logo.png" alt=""></a>
+      </div>
+      <ul class="nav-list">
+        <li>小米手机</li>
+        <li>Redmi红米</li>
+        <li>电视</li>
+        <li>笔记本</li>
+        <li>家电</li>
+        <li>路由器</li>
+        <li>智能硬件</li>
+        <li>服务</li>
+        <li>社区</li>
+      </ul>
+      <div class="search">
+        <input type="text" class="search-cont">
+        <button class="search-btn iconfont icon-fdj"></button>
+      </div>
+
+    </div>
+  </div>
+  <div id="main">
+    <div id="banner" class="container clearfix">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a href="#"><img src="./img/banner1.jpg"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="./img/banner2.jpg"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="./img/banner3.jpg"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="./img/banner4.jpg"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="./img/banner5.jpg"></a></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+
+        <div></div>
+      </div>
+      <!-- 轮播侧栏 -->
+      <ul class="categoryList">
+        <li><a href="#">手机电话卡<em class="iconfont icon-xiangyou"></em></a></li>
+        <li><a href="#">电视盒子<em class="iconfont icon-xiangyou"></em></a></li>
+        <li><a href="#">笔记本显示器<em class="iconfont icon-xiangyou"></em></a></li>
+        <li><a href="#">家电插线板<em class="iconfont icon-xiangyou"></em></a></li>
+        <li><a href="#">出行穿戴<em class="iconfont icon-xiangyou"></em></a></li>
+        <li><a href="#">智能路由器<em class="iconfont icon-xiangyou"></em></a></li>
+        <li><a href="#">电源配件<em class="iconfont icon-xiangyou"></em></a></li>
+        <li><a href="#">健康儿童<em class="iconfont icon-xiangyou"></em></a></li>
+        <li><a href="#">耳机音箱<em class="iconfont icon-xiangyou"></em></a></li>
+        <li><a href="#">生活箱包<em class="iconfont icon-xiangyou"></em></a></li>
+      </ul>
+
+      <!-- 轮播下方内容 -->
+      <div class="home-hero-sub clearfix">
+        <div class="span1">
+          <ul class="clearfix">
+            <li><a href="#"><img src="./img/icon1.png" alt="">小米秒杀</a></li>
+            <li><a href="#"><img src="./img/icon2.png" alt="">企业团购</a></li>
+            <li><a href="#"><img src="./img/icon3.png" alt="">F码通道</a></li>
+            <li><a href="#"><img src="./img/icon4.png" alt="">米粉卡</a></li>
+            <li><a href="#"><img src="./img/icon5.png" alt="">依旧换新</a></li>
+            <li><a href="#"><img src="./img/icon6.png" alt="">话费充值</a></li>
+          </ul>
+        </div>
+        <div class="span2">
+          <ul class="clearfix">
+            <li class="first"><a href="#"><img src="./img/product1.jpg"></a></li>
+            <li><a href="#"><img src="./img/product2.jpg"></a></li>
+            <li><a href="#"><img src="./img/product3.jpg"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 内容 -->
+    <div class="home-main page-main clearfix">
+      <!-- 内容的版心 -->
+      <div class="container">
+
+
+        <!-- 倒计时部分 -->
+        <div class="home-flashsale">
+          <div class="box-hd">
+            <h2>小米闪购</h2>
+          </div>
+          <div class="box-bd clearfix">
+            <div class="row">
+              <div class="countdown-box">
+                <div class="round">
+                  14:00 场
+                </div>
+                <img src="./img/shandian_03.png" alt="">
+                <div class="desc">
+                  距离结束还有
+                </div>
+                <div class="countdown clearfix">
+                  <span>00</span>
+                  <i>:</i>
+                  <span>00</span>
+                  <i>:</i>
+                  <span>00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- 广告 -->
+        <div class="home-banner-box">
+          <a href="#">
+            <img src="./img/banner6.jpg" alt="">
+          </a>
+        </div>
+
+
+        <!-- 第一部分内容 -->
+        <div class="home-brick-box">
+
+          <!-- 标题 -->
+          <div class="box-hd">
+            <h2>
+              手机
+            </h2>
+
+            <div class="more">
+              <a href="#" class="more-link">
+                查看全部
+                <i class="iconfont icon-xiangyou">
+
+                </i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 内容 -->
+          <div class="box-bd clearfix">
+            <!-- 第一个产品卡 -->
+            <div class="span3 clearfix">
+              <div class="showdown">
+                <a href="#"><img src="./img/mi1.jpg" alt=""></a>
+              </div>
+            </div>
+
+            <div class="span4 clearfix">
+              <ul class="clearfix">
+                <li class="showdown">
+                  <a href="#">
+                    <div class="figure">
+                      <img src="" alt="">
+                    </div>
+                    <h3>
+                      小米10
+                    </h3>
+                    <p class="desc">
+                      120X 变焦/120W秒充/120Hz屏幕
+                    </p>
+                    <p class="price">
+                      <span>5299</span>元起
+                    </p>
+                  </a>
+                </li>
+                <li class="showdown">
+                  <a href="#">
+                    <div class="figure">
+                      <img src="" alt="">
+                    </div>
+                    <h3>
+                      小米10
+                    </h3>
+                    <p class="desc">
+                      120X 变焦/120W秒充/120Hz屏幕
+                    </p>
+                    <p class="price">
+                      <span>5299</span>元起
+                    </p>
+                  </a>
+                </li>
+                <li class="showdown">
+                  <a href="#">
+                    <div class="figure">
+                      <img src="" alt="">
+                    </div>
+                    <h3>
+                      小米10
+                    </h3>
+                    <p class="desc">
+                      120X 变焦/120W秒充/120Hz屏幕
+                    </p>
+                    <p class="price">
+                      <span>5299</span>元起
+                    </p>
+                  </a>
+                </li>
+                <li class="showdown">
+                  <a href="#">
+                    <div class="figure">
+                      <img src="" alt="">
+                    </div>
+                    <h3>
+                      小米10
+                    </h3>
+                    <p class="desc">
+                      120X 变焦/120W秒充/120Hz屏幕
+                    </p>
+                    <p class="price">
+                      <span>5299</span>元起
+                    </p>
+                  </a>
+                </li>
+                <li class="showdown">
+                  <a href="#">
+                    <div class="figure">
+                      <img src="" alt="">
+                    </div>
+                    <h3>
+                      小米10
+                    </h3>
+                    <p class="desc">
+                      120X 变焦/120W秒充/120Hz屏幕
+                    </p>
+                    <p class="price">
+                      <span>5299</span>元起
+                    </p>
+                  </a>
+                </li>
+                <li class="showdown">
+                  <a href="#">
+                    <div class="figure">
+                      <img src="" alt="">
+                    </div>
+                    <h3>
+                      小米10
+                    </h3>
+                    <p class="desc">
+                      120X 变焦/120W秒充/120Hz屏幕
+                    </p>
+                    <p class="price">
+                      <span>5299</span>元起
+                    </p>
+                  </a>
+                </li>
+                <li class="showdown">
+                  <a href="#">
+                    <div class="figure">
+                      <img src="" alt="">
+                    </div>
+                    <h3>
+                      小米10
+                    </h3>
+                    <p class="desc">
+                      120X 变焦/120W秒充/120Hz屏幕
+                    </p>
+                    <p class="price">
+                      <span>5299</span>元起
+                    </p>
+                  </a>
+                </li>
+                <li class="showdown">
+                  <a href="#">
+                    <div class="figure">
+                      <img src="" alt="">
+                    </div>
+                    <h3>
+                      小米10
+                    </h3>
+                    <p class="desc">
+                      120X 变焦/120W秒充/120Hz屏幕
+                    </p>
+                    <p class="price">
+                      <span>5299</span>元起
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 广告 -->
+        <div class="home-banner-box">
+          <a href="#">
+            <img src="./img/banner6.jpg" alt="">
+          </a>
+        </div>
+
+        <!-- 第二部分产品卡 -->
+        <div class="home-brick-box">
+          <div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
   <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
   <!-- <script src="./js/header.js"></script> -->
+  <script src="./font/swiper-bundle.min.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
