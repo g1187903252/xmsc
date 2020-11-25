@@ -20,7 +20,7 @@ async function font(){
 }
 //处理data
 async function data(){
-  src('./data/*.json')
+  src('./data/*.*')
   .pipe(dest('./dist/data'))
 }
 

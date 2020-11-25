@@ -6,6 +6,27 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "475123",
+      "name": "iconfont-message-2",
+      "font_class": "iconfont-message2",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "514514",
+      "name": "iconfont-play (4)",
+      "font_class": "iconfontplay4",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "1795384",
+      "name": "circle_right",
+      "font_class": "circle_right",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
       "icon_id": "2190122",
       "name": "放大镜",
       "font_class": "fdj",
