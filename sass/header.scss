@@ -12,7 +12,7 @@ $bgc:#424242;
   background-color: $c;
 
   #container {
-    width: 1226px;    
+    width: 1226px;
     margin: 0 auto;
     height: $h;
 
@@ -72,7 +72,8 @@ $bgc:#424242;
           vertical-align: -2px;
         }
       }
-      .menu{
+
+      .menu {
         display: none;
         position: absolute;
         right: 0;
@@ -82,28 +83,52 @@ $bgc:#424242;
         background: chartreuse;
       }
     }
-    .topar-info{
-      float:right;
+
+    .topar-info {
+      float: right;
       height: $h;
       line-height: $h;
       font-size: $fs;
-      .sep{
+
+      .sep {
         color: $bgc;
       }
-      i{
+
+      i {
         color: $fc;
         cursor: pointer;
         display: inline-block;
-        &:hover{
+
+        &:hover {
           color: #fff;
         }
       }
-      .link{
+
+      .link {
         padding: 0 5px;
         text-align: center;
+        color: #b0b0b0;
+        cursor: pointer;
+
+        &:hover {
+          color: #fff;
+        }
       }
     }
 
   }
 
+}
+
+.message {
+  float: right;
+  color: #b0b0b0;
+  line-height: 40px;
+  i{
+    font-size: 12px;
+    line-height: 40px;
+    &:hover{
+      color: #fff;
+    }
+  }
 }

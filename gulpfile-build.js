@@ -27,8 +27,8 @@ async function data(){
 // 处理JS
 async function script(){
   src('./js/*.js')
-  .pipe(load.babel({ presets: ['@babel/env']}))// ES6转ES5
-  .pipe(load.uglify())// 压缩js
+  /* .pipe(load.babel({ presets: ['@babel/env']}))// ES6转ES5 */
+  /* .pipe(load.uglify())// 压缩js */
   .pipe(load.rev())// 给文件名添加哈希值
   .pipe(dest('./dist/js'))// 保存
   .pipe(load.rev.manifest())// 生成记录哈希值的json文件

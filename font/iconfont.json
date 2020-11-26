@@ -6,6 +6,34 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "782857",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "1104799",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "6132913",
+      "name": "维修",
+      "font_class": "weixiu",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "15383102",
+      "name": "个人中心",
+      "font_class": "renwu",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
       "icon_id": "475123",
       "name": "iconfont-message-2",
       "font_class": "iconfont-message2",

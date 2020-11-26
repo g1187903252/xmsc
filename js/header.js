@@ -1,3 +1,0 @@
-$(function(){
-    if(localStorage.getItem()){}
-})

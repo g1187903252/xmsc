@@ -94,9 +94,10 @@
 .slide-up {
     height: 0;
 }
+
 .slide-down {
     height: 229px;
-  }
+}
 
 .nav-item-active {
     position: relative;
@@ -294,9 +295,11 @@
     padding: 2px 0;
     list-style-type: none;
 }
-.edg{
+
+.edg {
     padding: 14px;
 }
+
 .site-category-list .children-list li {
     position: relative;
     float: left;
@@ -396,6 +399,50 @@
     list-style-type: none;
     font-size: 16px;
 }
+
+.banner-right-box {
+    width: 234px;
+    height: 300px;
+    float: left;
+    margin-left: 14px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    background: #fff;
+    text-align: center;
+    padding-top: 39px;
+
+    img {
+        display: block;
+        width: 160px;
+        margin: 0 auto 22px;
+    }
+
+    h4 {
+        margin: 0 20px 3px;
+        font-size: 14px;
+        font-weight: 400;
+        text-overflow: ellipsis;
+        color: #212121;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .a1 {
+        height: 18px;
+        margin: 0 20px 12px;
+        font-size: 12px;
+        text-overflow: ellipsis;
+        color: #b0b0b0;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .yuan {
+        color: #ff6709;
+    }
+}
+
+
 
 .swiper-container {
     width: 1226px;
@@ -1170,4 +1217,49 @@
     width: 267px;
     height: 19px;
     background: url(//s02.mifile.cn/assets/static/image/slogan2016.png) no-repeat center 0;
+}
+
+
+
+#side-navigation {
+    position: fixed;
+    bottom: 70px;
+    right: 0px;
+
+    a {
+        display: block;
+        width: 82px;
+        height: 90px;
+        background-color: #fff;
+        border: 1px solid #f5f5f5;
+        text-align: center;
+        margin-bottom: -2px;
+        div {
+            width: 82px;
+            height: 72px;
+            padding-top: 18px;
+            i{
+                font-size: 28px;
+                color: #757575;
+            }
+            p{
+                color: #757575;
+            }
+            &:hover i{
+                color: #ff6700;
+            }
+            &:hover p{
+                color: #ff6700;
+            }
+        }
+    }
+    .last{
+        margin-top: 14px;
+        opacity: 0;
+    }
+}
+
+#header #container .shoppingCart a:hover .cart-mini{
+    background: #fff;
+    color: #ff6700;
 }
