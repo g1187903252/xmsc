@@ -94,7 +94,7 @@ var goods = localStorage.getItem('code');
   })
 
 
-  $('.sale-btn').on('click','.sale-btn button',function (){
+  $('.sale-btn').on('click',' button',function (){
     // 获取当前点击商品的编号
     var code = $(this).attr('code')
     
